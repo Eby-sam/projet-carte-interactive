@@ -42,5 +42,15 @@ html {
 #info-map {
     width: 80%;
     height: 30vh;
-    border: 1px solid black;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.triple {
+    width: 33.33%;
+    height: 100%;
+    border: 1px dashed black;
 }
