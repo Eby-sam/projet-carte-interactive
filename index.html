@@ -5,6 +5,8 @@
     <title>Projet carte interactive</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js%27%3E'></script>
 
 </head>
 <body>
@@ -14,6 +16,13 @@
             <div id="map">
 
             </div>
+            <label for="satellite-v9"> Vue satellite
+                <input type="radio" name="rToggle" id="satellite-v9" value="satellite" checked="checked">
+            </label>
+            <label for="streets-v11"> Vue bâtiment
+                <input type="radio" name="rToggle" id="streets-v11" value="streets">
+            </label>
+
             <div id="info-map">
                 <div class="triple" id="zone1">
 
