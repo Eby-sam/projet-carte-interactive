@@ -43,7 +43,6 @@ html {
 #info-map {
     width: 80%;
     height: 30vh;
-
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -81,4 +80,15 @@ input[type=radio] {
 
 .descri {
     text-align: center;
+}
+
+@media screen and (max-width: 400px) {
+    #info-map {
+        display: flex;
+        flex-direction: column;
+    }
+    .triple {
+        width: 80%;
+        padding: 1rem;
+    }
 }
