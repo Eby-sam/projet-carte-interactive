@@ -16,6 +16,7 @@ for (const input of inputs) {
     input.onclick = (layer) => {
         const layerId = layer.target.id;
         map.setStyle('mapbox://styles/mapbox/' + layerId);
+        console.log(inputs)
     };
 }
 
